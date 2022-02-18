@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "1f76550d-51a8-48c6-b2d4-411f2e43a104",
+		"name": "live-search-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "results",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "9af4d8381781baccb0f915e554f8798d",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "API_Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "API_Key",
+						"value": "9af4d8381781baccb0f915e554f8798d",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/results/mús",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"results",
+						"mús"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
