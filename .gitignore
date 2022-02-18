@@ -1,4 +1,5 @@
 server/build
+jest_html_reporters.html
 
 # Logs
 logs
