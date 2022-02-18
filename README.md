@@ -1,6 +1,6 @@
 # Live search usando JSON
 
-<img src="https://github.com/rafaelscariot/live-search/blob/main/screenshot.png" />
+<img src="https://github.com/rafaelscariot/live-search/blob/master/screenshot.png" />
 
 ## Tecnologias utilizadas
 
